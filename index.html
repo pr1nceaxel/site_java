@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <ul class="menu">
+            <li><img src="logojeu.png" alt="" /></li>
+            
+            <li><a href="#" >Puzzle</a>
+                <ul class="sous-menu">
+                    <li><a href="#">Facile</a></li>
+                    <li><a href="#">Moyen</a></li>
+                    <li><a href="#">Difficile</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Quiz monument</a>
+                <ul class="sous-menu">
+                    <li><a href="#">Facile</a></li>
+                    <li><a href="#">Moyen</a></li>
+                    <li><a href="#">Difficile</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Mon compte</a>
+                <ul class="sous-menu">
+                    <li><a href="video.html" target="_blank">Ma video</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </header>
+    <main>
+
+        <div id="quiz-container">
+            <h1>Quiz sur les Capitales</h1>
+            <p id="score">Score: 0</p>
+            <div id="question-container">
+                <!-- La question sera affichée ici  -->
+            </div>
+            <div id="reponse-buttons" class="btn-container">
+                <!-- Les boutons de réponse seront ici-->
+            </div>
+            <button id="next-button" class="btn" onclick="nextQuestion()">Suivant</button>
+        </div>
+        
+    </main>
+    <footer>
+        @Copyright : PRINCE AXEL 
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
